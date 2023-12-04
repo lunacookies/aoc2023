@@ -11,7 +11,7 @@ func main() {
 	file, err := os.ReadFile("day1input")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: failed to read input\n")
-		return
+		os.Exit(1)
 	}
 
 	digits := []string{

@@ -38,7 +38,6 @@ func isGameValid(game string) bool {
 	}
 
 	return true
-
 }
 
 func isSetValid(set string) bool {
